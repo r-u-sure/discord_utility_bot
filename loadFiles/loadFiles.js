@@ -1,6 +1,6 @@
 const path = require('node:path');
 const { Collection } = require('discord.js');
-const { getEventFilePaths, getCommandFilePaths, getPluginFolderNames, getPluginFoldersPath } = require('./getUtiliryFuntion');
+const { getEventFilePaths, getCommandFilePaths, getPluginFolderNames, getPluginFoldersPath } = require('./getUtilityFuntion');
 
 const loadPluginFiles = client => {
     const pluginFoldersPath = getPluginFoldersPath(); 
